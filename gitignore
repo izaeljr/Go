@@ -1,0 +1,37 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_bin/
+_obj/
+_test/
+
+# Compiled Go binaries
+*.exe
+*.test
+*.prof
+
+# Compiled results of go tool
+*.test
+*.prof
+
+# Output of the go coverage tool
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories
+/vendor/
+/Godeps/
+/_vendor/
+
+# Workspace
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.vscode/
+
+# Go generated files
+*.pb.go
