@@ -27,4 +27,7 @@ func main() {
 
 	resultSum, resultSub := calc(15, 23)
 	println(resultSum, resultSub)
+
+	resultSum2, _ := calc(13, 51)
+	println(resultSum2)
 }
